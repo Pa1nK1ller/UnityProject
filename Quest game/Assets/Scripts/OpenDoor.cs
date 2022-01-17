@@ -6,7 +6,7 @@ public class OpenDoor : MonoBehaviour
 {
     [SerializeField] private GameObject Door;
     bool enter;
-    int speed = 1;
+    int speed = 5;
     bool open;
     private void Start()
     {
@@ -44,7 +44,7 @@ public class OpenDoor : MonoBehaviour
 
         if (open)
         {
-            Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3(5, 0.5f, 1.1f), speed * Time.deltaTime);
+            Door.transform.position = Vector3.MoveTowards(Door.transform.position, new Vector3 (5.007f,0.5f,1.1f), speed * Time.deltaTime);
             if (Door.transform.position.z >= 1.1f)
                 Destroy(gameObject);
         }

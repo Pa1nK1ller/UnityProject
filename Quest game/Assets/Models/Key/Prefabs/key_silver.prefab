@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 469694}
   - component: {fileID: 1042012060}
   - component: {fileID: 8108821161649951075}
+  - component: {fileID: 20125711762158144}
   m_Layer: 0
   m_Name: key_silver
   m_TagString: Untagged
@@ -137,3 +138,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86498eefad9b5a241a35014cfb2781d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Tag: CheckOutRoom1
+--- !u!114 &20125711762158144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2adf7694e8ae68f408dc9de14d1968fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0
+  Description: Key for Room 2
